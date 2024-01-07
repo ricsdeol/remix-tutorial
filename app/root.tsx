@@ -52,7 +52,7 @@ export default function App() {
   const searching =
     navigation.location &&
     new URLSearchParams(navigation.location.search).has("q");
-
+  
   return (
     <html lang="en">
       <head>
